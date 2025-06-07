@@ -72,6 +72,7 @@
         "logo_Dc8pGJ": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/logo_topsante.webp",
             "logo_width": 120,
             "link": ""
           }
@@ -79,6 +80,7 @@
         "logo_tVd34R": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Logo-doctissimo_svg.png",
             "logo_width": 120,
             "link": ""
           }
