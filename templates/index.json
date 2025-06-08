@@ -202,11 +202,9 @@
             "show_taxes_notice": false
           }
         },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
+        "separator_gx4Ghq": {
+          "type": "separator",
+          "settings": {}
         },
         "liquid_eaqtLL": {
           "type": "liquid",
@@ -246,7 +244,7 @@
       "block_order": [
         "title",
         "price",
-        "rating",
+        "separator_gx4Ghq",
         "liquid_eaqtLL",
         "variant-picker",
         "buy-buttons",
