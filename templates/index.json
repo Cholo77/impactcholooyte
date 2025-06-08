@@ -370,7 +370,7 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": true,
-        "gap": "medium",
+        "gap": "large",
         "text_alignment": "center",
         "subheading": "",
         "title": "",
