@@ -212,6 +212,12 @@
             "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Liste avantages</title>\n    <style>\n        .checklist {\n            list-style: none;\n            padding: 0;\n            font-family: Arial, sans-serif;\n            font-size: 16px;\n        }\n\n        .checklist li {\n            margin-bottom: 10px;\n            position: relative;\n            padding-left: 25px;\n        }\n\n        .checklist li::before {\n            content: \"✔\";\n            position: absolute;\n            left: 0;\n            top: 0;\n            color: #000;\n            font-weight: bold;\n        }\n    </style>\n</head>\n<body>\n\n    <ul class=\"checklist\">\n        <li>90 % plus silencieux que les autres cerceaux intelligents</li>\n        <li>Plus de 56 742 résultats positifs</li>\n        <li>Perdre du poids devient un jeu d’enfant</li>\n    </ul>\n\n</body>\n</html>"
           }
         },
+        "moon_bundle_app_block_MeYfqY": {
+          "type": "shopify://apps/moon-bundle/blocks/app-block/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
+          "settings": {
+            "moonbundle_selected_product": "{{section.settings.product}}"
+          }
+        },
         "variant-picker": {
           "type": "variant_picker",
           "settings": {
@@ -252,6 +258,7 @@
         "price",
         "separator_gx4Ghq",
         "liquid_eaqtLL",
+        "moon_bundle_app_block_MeYfqY",
         "variant-picker",
         "buy-buttons",
         "liquid_cXW4N3",
