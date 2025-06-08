@@ -427,6 +427,42 @@
         "alternate_media_position": false,
         "spacing": "none"
       }
+    },
+    "media_with_text_rVGFVU": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_ifBPic": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gymside_1.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 52,
+            "subheading": "",
+            "title": "Brûlez des calories au plus haut niveau",
+            "content": "<p>Fini <strong>les heures</strong> de <strong>sport</strong> qui vous font perdre du temps ! Brûlez <strong>des calories</strong> en <strong>un temps record</strong> avec le <strong>Hoopside Pro</strong> et découvrez un <strong>fitness efficace</strong> et ludique !</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ifBPic"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
     }
   },
   "order": [
@@ -442,6 +478,7 @@
     "custom_liquid_gr8qzB",
     "media_with_text_6LCV7R",
     "media_with_text_8hU7U6",
-    "media_with_text_LcqUBw"
+    "media_with_text_LcqUBw",
+    "media_with_text_rVGFVU"
   ]
 }
