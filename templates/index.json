@@ -202,12 +202,6 @@
             "show_taxes_notice": false
           }
         },
-        "moon_bundle_app_block_K9VBbb": {
-          "type": "shopify://apps/moon-bundle/blocks/app-block/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
-          "settings": {
-            "moonbundle_selected_product": "{{section.settings.product}}"
-          }
-        },
         "variant-picker": {
           "type": "variant_picker",
           "settings": {
@@ -233,7 +227,7 @@
         "liquid_cXW4N3": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Payment Options</title>\n    <style>\n        body.unique-body-Pay123 {\n            font-family: Arial, sans-serif;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n            background-color: #f9f9f9;\n        }\n        .unique-payment-container-Xyz456 {\n            text-align: center;\n        }\n        .unique-payment-options-Abc789 {\n            display: flex;\n            justify-content: center;\n            gap: 10px;\n        }\n        .unique-payment-options-Abc789 img {\n            width: 50px;\n            height: auto;\n        }\n    </style>\n</head>\n<body class=\"unique-body-Pay123\">\n    <div class=\"unique-payment-container-Xyz456\">\n        <div class=\"unique-payment-options-Abc789\">\n            <img src=\"https://www.svgrepo.com/show/14823/amex.svg\" alt=\"AMEX\">\n            <img src=\"https://www.svgrepo.com/show/508402/apple-pay.svg\" alt=\"Apple Pay\">\n            <img src=\"https://www.svgrepo.com/show/508703/mastercard.svg\" alt=\"MasterCard\">\n            <img src=\"https://www.svgrepo.com/show/508716/paypal.svg\" alt=\"PayPal\">\n            <img src=\"https://www.svgrepo.com/show/508690/google-pay.svg\" alt=\"Google Pay\">\n            <img src=\"https://www.svgrepo.com/show/508730/visa-classic.svg\" alt=\"VISA\">\n        </div>\n    </div>\n</body>\n</html>"
+            "liquid": "<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Payment Options</title>\n    <style>\n        body.unique-body-Pay123 {\n            font-family: Arial, sans-serif;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n            background-color: #f9f9f9;\n        }\n        .unique-payment-container-Xyz456 {\n            text-align: center;\n        }\n        .unique-payment-options-Abc789 {\n            display: flex;\n            justify-content: center;\n            gap: 10px;\n        }\n        .unique-payment-options-Abc789 img {\n            width: 50px;\n            height: auto;\n        }\n    </style>\n</head>\n<body class=\"unique-body-Pay123\">\n    <div class=\"unique-payment-container-Xyz456\">\n        <div class=\"unique-payment-options-Abc789\">\n            <img src=\"https://www.svgrepo.com/show/14823/amex.svg\" alt=\"AMEX\">\n            <img src=\"https://www.svgrepo.com/show/508402/apple-pay.svg\" alt=\"Apple Pay\">\n            <img src=\"https://www.svgrepo.com/show/508703/mastercard.svg\" alt=\"MasterCard\">\n            <img src=\"https://www.svgrepo.com/show/508716/paypal.svg\" alt=\"PayPal\">\n            <img src=\"https://www.svgrepo.com/show/508690/google-pay.svg\" alt=\"Google Pay\">\n            <img src=\"https://www.svgrepo.com/show/508730/visa-classic.svg\" alt=\"VISA\">\n        </div>\n    </div>\n</body>\n</html>"
           }
         },
         "liquid_KjDrMU": {
@@ -241,16 +235,22 @@
           "settings": {
             "liquid": ""
           }
+        },
+        "liquid_qB73YF": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"width: 100%; background: #fff; padding: 12px 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-family: sans-serif; display: flex; align-items: center; gap: 12px; border-radius: 0;\">\n  <img src=\"https://images.loox.io/uploads/2025/5/20/js8NEkTRy_cf_tiny.jpg\" alt=\"Steffi H.\" style=\"width: 60px; height: 60px; border-radius: 12px; object-fit: cover;\">\n  <div style=\"flex: 1;\">\n    <div style=\"font-weight: bold;\">Steffi H. <span style=\"color: #FFD700;\">★★★★★</span></div>\n    <div style=\"font-size: 14px; color: #333;\">« C'est amusant de s'entraîner avec le Gymside Pro. Je le fais presque...</div>\n  </div>\n  <div style=\"font-size: 18px; color: #999;\">›</div>\n</div>"
+          }
         }
       },
       "block_order": [
         "title",
         "price",
-        "moon_bundle_app_block_K9VBbb",
         "variant-picker",
         "buy-buttons",
         "liquid_cXW4N3",
-        "liquid_KjDrMU"
+        "liquid_KjDrMU",
+        "liquid_qB73YF"
       ],
       "settings": {
         "full_width": false,
@@ -279,19 +279,6 @@
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
         "liquid": "<div class=\"policy-icons-section\" style=\"display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; max-width: 420px; margin: 0 auto;\">\n  <div class=\"policy-box\" style=\"display: flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 10px; border-radius: 6px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0909/9965/2737/files/delivery-truck-svgrepo-com.svg?v=1749248525\" alt=\"Livraison\" style=\"width: 24px;\">\n    <span style=\"font-size: 13px;\">Livraison gratuite en France</span>\n  </div>\n  <div class=\"policy-box\" style=\"display: flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 10px; border-radius: 6px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0909/9965/2737/files/plane-svgrepo-com.svg?v=1749248602\" alt=\"Expédition\" style=\"width: 24px;\">\n    <span style=\"font-size: 13px;\">Expédition vers la France</span>\n  </div>\n  <div class=\"policy-box\" style=\"display: flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 10px; border-radius: 6px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0909/9965/2737/files/gift-present-offer-svgrepo-com.svg?v=1749248669\" alt=\"Retour\" style=\"width: 24px;\">\n    <span style=\"font-size: 13px;\">Politique de retour de 30 jours</span>\n  </div>\n  <div class=\"policy-box\" style=\"display: flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 10px; border-radius: 6px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0909/9965/2737/files/customer-care-svgrepo-com.svg?v=1749248926\" alt=\"Service client\" style=\"width: 24px;\">\n    <span style=\"font-size: 13px;\">Service client 24h/24</span>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_MrMMTg": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<div style=\"width: 100%; background: #fff; padding: 12px 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-family: sans-serif; display: flex; align-items: center; gap: 12px; border-radius: 0;\">\n  <img src=\"https://images.loox.io/uploads/2025/5/20/js8NEkTRy_cf_tiny.jpg\" alt=\"Steffi H.\" style=\"width: 60px; height: 60px; border-radius: 12px; object-fit: cover;\">\n  <div style=\"flex: 1;\">\n    <div style=\"font-weight: bold;\">Steffi H. <span style=\"color: #FFD700;\">★★★★★</span></div>\n    <div style=\"font-size: 14px; color: #333;\">« C'est amusant de s'entraîner avec le Gymside Pro. Je le fais presque...</div>\n  </div>\n  <div style=\"font-size: 18px; color: #999;\">›</div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -581,7 +568,6 @@
     "custom_liquid_3rtrzt",
     "featured-product",
     "custom_liquid_EWAjzL",
-    "custom_liquid_MrMMTg",
     "custom_liquid_gr8qzB",
     "media_with_text_6LCV7R",
     "media_with_text_8hU7U6",
