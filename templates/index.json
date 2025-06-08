@@ -319,47 +319,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "images_with_text_scrolling_axVTzT": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_K3gznP": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/GIFMaker_me_11_3b5a3584-a889-4f59-980f-830ef34fb09f.webp",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "De 0 à 100 pour votre corps de rêve",
-            "content": "<p><strong>Découvrez une toute nouvelle façon</strong>, simple et<strong>silencieuse,</strong>de<strong>perdre du poids</strong>avec le<strong>HoopsidePro</strong>! Affinez votre silhouette avec notre<strong>hula hoopanti-chute</strong>et savourez chaque instant !</p>"
-          }
-        },
-        "item_9Khtd6": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_K3gznP",
-        "item_9Khtd6"
-      ],
-      "name": "Images and text scrolling",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
     }
   },
   "order": [
@@ -372,7 +331,6 @@
     "featured-product",
     "custom_liquid_EWAjzL",
     "custom_liquid_MrMMTg",
-    "custom_liquid_gr8qzB",
-    "images_with_text_scrolling_axVTzT"
+    "custom_liquid_gr8qzB"
   ]
 }
