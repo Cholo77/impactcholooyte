@@ -202,12 +202,6 @@
             "show_taxes_notice": false
           }
         },
-        "liquid_KjDrMU": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"width: 100%; background: #fff; padding: 12px 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-family: sans-serif; display: flex; align-items: center; gap: 12px; border-radius: 0;\">\n  <img src=\"https://images.loox.io/uploads/2025/5/20/js8NEkTRy_cf_tiny.jpg\" alt=\"Steffi H.\" style=\"width: 60px; height: 60px; border-radius: 12px; object-fit: cover;\">\n  <div style=\"flex: 1;\">\n    <div style=\"font-weight: bold;\">Steffi H. <span style=\"color: #FFD700;\">★★★★★</span></div>\n    <div style=\"font-size: 14px; color: #333;\">« C'est amusant de s'entraîner avec le Gymside Pro. Je le fais presque...</div>\n  </div>\n  <div style=\"font-size: 18px; color: #999;\">›</div>\n</div>"
-          }
-        },
         "separator_gx4Ghq": {
           "type": "separator",
           "settings": {}
@@ -215,7 +209,7 @@
         "liquid_eaqtLL": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Product Features</title>\n    <style>\n        :root {\n            --text-color: #333;\n            --hover-bg-color: #f1f1f1;\n            --highlight-color: #000;\n            --transition-duration: 0.3s;\n            --font-family: 'Helvetica Neue', Arial, sans-serif;\n        }\n\n        body.bdy-a123 {\n            font-family: var(--font-family);\n            display: flex;\n            justify-content: flex-start;\n            align-items: flex-start;\n            height: 100vh;\n            margin: 0;\n            background: none;\n            padding: 20px;\n        }\n\n        .container-x987 {\n            width: 100%;\n            max-width: 600px;\n            display: flex;\n            flex-direction: column;\n            gap: 5px; /* Boşlukları azaltmak için gap değeri */\n        }\n\n        .item-z456 {\n            display: flex;\n            align-items: center;\n            padding: 5px 0; /* Dikey boşluğu azaltmak için padding değeri */\n            border-radius: 8px;\n            transition: background-color var(--transition-duration) ease, transform var(--transition-duration) ease;\n            cursor: default; /* İmlecin değişmesini engellemek için */\n        }\n\n        .item-z456:hover {\n            background-color: var(--hover-bg-color);\n            transform: translateX(10px);\n        }\n\n        .icon-w321 {\n            width: 24px;\n            height: 24px;\n            margin-right: 10px;\n            transition: filter var(--transition-duration) ease;\n        }\n\n        .item-z456:hover .icon-w321 {\n            filter: brightness(0) invert(0);\n        }\n\n        .text-v654 {\n            font-size: 16px;\n            color: var(--text-color);\n            transition: color var(--transition-duration) ease;\n        }\n\n        .item-z456:hover .text-v654 {\n            color: var(--highlight-color);\n        }\n\n        @media (max-width: 600px) {\n            .text-v654 {\n                font-size: 14px;\n            }\n        }\n    </style>\n</head>\n<body class=\"bdy-a123\">\n    <div class=\"container-x987\">\n        <div class=\"item-z456\">\n            <img src=\"https://www.svgrepo.com/show/507980/check-badge.svg\" alt=\"Check Icon\" class=\"icon-w321\">\n            <div class=\"text-v654\">Easily Changeable 6 Different Heads</div>\n        </div>\n        <div class=\"item-z456\">\n            <img src=\"https://www.svgrepo.com/show/507980/check-badge.svg\" alt=\"Check Icon\" class=\"icon-w321\">\n            <div class=\"text-v654\">Waterproof Charging Unit</div>\n        </div>\n        <div class=\"item-z456\">\n            <img src=\"https://www.svgrepo.com/show/507980/check-badge.svg\" alt=\"Check Icon\" class=\"icon-w321\">\n            <div class=\"text-v654\">3.5 hours continuous operation time</div>\n        </div>\n    </div>\n</body>\n</html>"
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Liste avantages</title>\n    <style>\n        .checklist {\n            list-style: none;\n            padding: 0;\n            font-family: Arial, sans-serif;\n            font-size: 16px;\n        }\n\n        .checklist li {\n            margin-bottom: 10px;\n            position: relative;\n            padding-left: 25px;\n        }\n\n        .checklist li::before {\n            content: \"✔\";\n            position: absolute;\n            left: 0;\n            top: 0;\n            color: #000;\n            font-weight: bold;\n        }\n    </style>\n</head>\n<body>\n\n    <ul class=\"checklist\">\n        <li>90 % plus silencieux que les autres cerceaux intelligents</li>\n        <li>Plus de 56 742 résultats positifs</li>\n        <li>Perdre du poids devient un jeu d’enfant</li>\n    </ul>\n\n</body>\n</html>"
           }
         },
         "variant-picker": {
@@ -245,17 +239,23 @@
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Payment Options</title>\n    <style>\n        body.unique-body-Pay123 {\n            font-family: Arial, sans-serif;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n            background-color: #f9f9f9;\n        }\n        .unique-payment-container-Xyz456 {\n            text-align: center;\n        }\n        .unique-payment-options-Abc789 {\n            display: flex;\n            justify-content: center;\n            gap: 10px;\n        }\n        .unique-payment-options-Abc789 img {\n            width: 50px;\n            height: auto;\n        }\n    </style>\n</head>\n<body class=\"unique-body-Pay123\">\n    <div class=\"unique-payment-container-Xyz456\">\n        <div class=\"unique-payment-options-Abc789\">\n            <img src=\"https://www.svgrepo.com/show/14823/amex.svg\" alt=\"AMEX\">\n            <img src=\"https://www.svgrepo.com/show/508402/apple-pay.svg\" alt=\"Apple Pay\">\n            <img src=\"https://www.svgrepo.com/show/508703/mastercard.svg\" alt=\"MasterCard\">\n            <img src=\"https://www.svgrepo.com/show/508716/paypal.svg\" alt=\"PayPal\">\n            <img src=\"https://www.svgrepo.com/show/508690/google-pay.svg\" alt=\"Google Pay\">\n            <img src=\"https://www.svgrepo.com/show/508730/visa-classic.svg\" alt=\"VISA\">\n        </div>\n    </div>\n</body>\n</html>"
           }
+        },
+        "liquid_KjDrMU": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
         }
       },
       "block_order": [
         "title",
         "price",
-        "liquid_KjDrMU",
         "separator_gx4Ghq",
         "liquid_eaqtLL",
         "variant-picker",
         "buy-buttons",
-        "liquid_cXW4N3"
+        "liquid_cXW4N3",
+        "liquid_KjDrMU"
       ],
       "settings": {
         "full_width": false,
@@ -291,7 +291,6 @@
     },
     "custom_liquid_MrMMTg": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
