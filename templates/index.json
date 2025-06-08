@@ -181,7 +181,7 @@
         "full_width": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n  <title>Nos clientes en parlent le mieux</title>\n  <style>\n    .slider-containerv8 {\n      position: relative;\n      width: 100%;\n      overflow-x: scroll;\n      display: flex;\n      align-items: center;\n      scroll-snap-type: x mandatory;\n      max-width: 1200px;\n      margin: auto;\n      padding: 0 10px;\n    }\n    .sliderv8 {\n      display: flex;\n      gap: 10px;\n      scroll-snap-type: x mandatory;\n    }\n    .slidev8 {\n      flex: 0 0 60%;\n      max-width: 360px;\n      scroll-snap-align: center;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      position: relative;\n    }\n    @media screen and (min-width: 769px) {\n      .slidev8 {\n        flex: 0 0 50%;\n        max-width: 260px;\n      }\n    }\n    .tiktok-videov8 {\n      width: 100%;\n      aspect-ratio: 9 / 16;\n      border-radius: 10px;\n      display: block;\n      object-fit: cover;\n    }\n    .play-buttonv8, .pause-buttonv8 {\n      position: absolute;\n      width: 50px;\n      height: 50px;\n      background: rgba(0, 0, 0, 0.6);\n      color: white;\n      border-radius: 50%;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      font-size: 20px;\n      cursor: pointer;\n      z-index: 10;\n    }\n    .pause-buttonv8 {\n      display: none;\n      opacity: 1;\n      transition: opacity 0.5s ease;\n    }\n    .pause-buttonv8.hiddenv8 {\n      opacity: 0;\n    }\n    .slider-containerv8::-webkit-scrollbar {\n      height: 10px;\n    }\n    .slider-containerv8::-webkit-scrollbar-thumb {\n      background: #aaa;\n      border-radius: 10px;\n    }\n    .slider-containerv8::-webkit-scrollbar-track {\n      background: #ddd;\n    }\n    .with-borderv8 {\n      padding: 4px;\n      border-radius: 10px;\n      background: linear-gradient(0deg, #fe2d52, #28ffff);\n    }\n  </style>\n</head>\n\n<body>\n  <h2 style=\"text-align: center; font-size: 36px; font-weight: bold; margin-bottom: 30px;\">Nos clientes en parlent le mieux</h2>\n\n  <div class=\"slider-containerv8\">\n    <div class=\"sliderv8\">\n\n      <!-- Vidéo 1 -->\n      <div class=\"slidev8\">\n        <div class=\"with-borderv8\">\n          <video class=\"tiktok-videov8\" playsinline preload=\"auto\">\n            <source src=\"https://cdn.shopify.com/videos/c/o/v/fef87495088b42fd96acd3d865087d48.mp4\" type=\"video/mp4\">\n          </video>\n        </div>\n        <div class=\"pause-buttonv8 hiddenv8\">❚❚</div>\n        <div class=\"play-buttonv8\">▶</div>\n      </div>\n\n      <!-- Vidéo 2 -->\n      <div class=\"slidev8\">\n        <div class=\"with-borderv8\">\n          <video class=\"tiktok-videov8\" playsinline preload=\"auto\">\n            <source src=\"https://cdn.shopify.com/videos/c/o/v/7bc6094d8cbb4d1fb63abaeee381ce6e.mp4\" type=\"video/mp4\">\n          </video>\n        </div>\n        <div class=\"pause-buttonv8 hiddenv8\">❚❚</div>\n        <div class=\"play-buttonv8\">▶</div>\n      </div>\n\n      <!-- Vidéo 3 -->\n      <div class=\"slidev8\">\n        <div class=\"with-borderv8\">\n          <video class=\"tiktok-videov8\" playsinline preload=\"auto\">\n            <source src=\"https://cdn.shopify.com/videos/c/o/v/66c13f88cae84e668ddebe5553f4f327.mp4\" type=\"video/mp4\">\n          </video>\n        </div>\n        <div class=\"pause-buttonv8 hiddenv8\">❚❚</div>\n        <div class=\"play-buttonv8\">▶</div>\n      </div>\n\n    </div>\n  </div>\n\n  <script>\n    document.addEventListener(\"DOMContentLoaded\", () => {\n      const slides = document.querySelectorAll(\".slidev8\");\n\n      slides.forEach(slide => {\n        const playButton = slide.querySelector(\".play-buttonv8\");\n        const pauseButton = slide.querySelector(\".pause-buttonv8\");\n        const video = slide.querySelector(\"video\");\n\n        let hidePauseButtonTimeout;\n\n        const showPauseButton = () => {\n          pauseButton.classList.remove(\"hiddenv8\");\n          clearTimeout(hidePauseButtonTimeout);\n          hidePauseButtonTimeout = setTimeout(() => {\n            pauseButton.classList.add(\"hiddenv8\");\n          }, 1000);\n        };\n\n        playButton.addEventListener(\"click\", () => {\n          document.querySelectorAll(\"video\").forEach(v => {\n            if (v !== video) {\n              v.pause();\n              v.closest('.slidev8').querySelector(\".play-buttonv8\").style.display = \"flex\";\n              v.closest('.slidev8').querySelector(\".pause-buttonv8\").style.display = \"none\";\n            }\n          });\n\n          video.play();\n          playButton.style.display = \"none\";\n          pauseButton.style.display = \"flex\";\n          showPauseButton();\n        });\n\n        pauseButton.addEventListener(\"click\", () => {\n          video.pause();\n          playButton.style.display = \"flex\";\n          pauseButton.style.display = \"none\";\n        });\n\n        video.addEventListener(\"mousemove\", showPauseButton);\n        video.addEventListener(\"click\", showPauseButton);\n\n        video.addEventListener(\"play\", () => {\n          playButton.style.display = \"none\";\n          pauseButton.style.display = \"flex\";\n          showPauseButton();\n        });\n\n        video.addEventListener(\"pause\", () => {\n          playButton.style.display = \"flex\";\n          pauseButton.style.display = \"none\";\n        });\n      });\n    });\n  </script>\n</body>\n</html>",
+        "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n  <title>Nos clientes en parlent le mieux</title>\n  <style>\n    .slider-containerv8 {\n      position: relative;\n      width: 100%;\n      overflow-x: scroll;\n      display: flex;\n      align-items: center;\n      scroll-snap-type: x mandatory;\n      max-width: 1200px;\n      margin: auto;\n      padding: 0 10px;\n    }\n    .sliderv8 {\n      display: flex;\n      gap: 10px;\n      scroll-snap-type: x mandatory;\n    }\n    .slidev8 {\n      flex: 0 0 60%;\n      max-width: 360px;\n      scroll-snap-align: center;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      position: relative;\n    }\n    @media screen and (min-width: 769px) {\n      .slidev8 {\n        flex: 0 0 50%;\n        max-width: 260px;\n      }\n    }\n    .tiktok-videov8 {\n      width: 100%;\n      aspect-ratio: 9 / 16;\n      border-radius: 10px;\n      display: block;\n      object-fit: cover;\n    }\n    .play-buttonv8, .pause-buttonv8 {\n      position: absolute;\n      width: 50px;\n      height: 50px;\n      background: rgba(0, 0, 0, 0.6);\n      color: white;\n      border-radius: 50%;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      font-size: 20px;\n      cursor: pointer;\n      z-index: 10;\n    }\n    .pause-buttonv8 {\n      display: none;\n      opacity: 1;\n      transition: opacity 0.5s ease;\n    }\n    .pause-buttonv8.hiddenv8 {\n      opacity: 0;\n    }\n    .slider-containerv8::-webkit-scrollbar {\n      height: 10px;\n    }\n    .slider-containerv8::-webkit-scrollbar-thumb {\n      background: #aaa;\n      border-radius: 10px;\n    }\n    .slider-containerv8::-webkit-scrollbar-track {\n      background: #ddd;\n    }\n    .with-borderv8 {\n      padding: 4px;\n      border-radius: 10px;\n      background: linear-gradient(0deg, #fe2d52, #28ffff);\n    }\n  </style>\n</head>\n\n<body>\n  <h2 style=\"text-align: center; font-size: 31px; font-weight: bold; margin-bottom: 30px;\">Nos clientes en parlent le mieux</h2>\n\n  <div class=\"slider-containerv8\">\n    <div class=\"sliderv8\">\n\n      <!-- Vidéo 1 -->\n      <div class=\"slidev8\">\n        <div class=\"with-borderv8\">\n          <video class=\"tiktok-videov8\" playsinline preload=\"auto\">\n            <source src=\"https://cdn.shopify.com/videos/c/o/v/fef87495088b42fd96acd3d865087d48.mp4\" type=\"video/mp4\">\n          </video>\n        </div>\n        <div class=\"pause-buttonv8 hiddenv8\">❚❚</div>\n        <div class=\"play-buttonv8\">▶</div>\n      </div>\n\n      <!-- Vidéo 2 -->\n      <div class=\"slidev8\">\n        <div class=\"with-borderv8\">\n          <video class=\"tiktok-videov8\" playsinline preload=\"auto\">\n            <source src=\"https://cdn.shopify.com/videos/c/o/v/7bc6094d8cbb4d1fb63abaeee381ce6e.mp4\" type=\"video/mp4\">\n          </video>\n        </div>\n        <div class=\"pause-buttonv8 hiddenv8\">❚❚</div>\n        <div class=\"play-buttonv8\">▶</div>\n      </div>\n\n      <!-- Vidéo 3 -->\n      <div class=\"slidev8\">\n        <div class=\"with-borderv8\">\n          <video class=\"tiktok-videov8\" playsinline preload=\"auto\">\n            <source src=\"https://cdn.shopify.com/videos/c/o/v/66c13f88cae84e668ddebe5553f4f327.mp4\" type=\"video/mp4\">\n          </video>\n        </div>\n        <div class=\"pause-buttonv8 hiddenv8\">❚❚</div>\n        <div class=\"play-buttonv8\">▶</div>\n      </div>\n\n    </div>\n  </div>\n\n  <script>\n    document.addEventListener(\"DOMContentLoaded\", () => {\n      const slides = document.querySelectorAll(\".slidev8\");\n\n      slides.forEach(slide => {\n        const playButton = slide.querySelector(\".play-buttonv8\");\n        const pauseButton = slide.querySelector(\".pause-buttonv8\");\n        const video = slide.querySelector(\"video\");\n\n        let hidePauseButtonTimeout;\n\n        const showPauseButton = () => {\n          pauseButton.classList.remove(\"hiddenv8\");\n          clearTimeout(hidePauseButtonTimeout);\n          hidePauseButtonTimeout = setTimeout(() => {\n            pauseButton.classList.add(\"hiddenv8\");\n          }, 1000);\n        };\n\n        playButton.addEventListener(\"click\", () => {\n          document.querySelectorAll(\"video\").forEach(v => {\n            if (v !== video) {\n              v.pause();\n              v.closest('.slidev8').querySelector(\".play-buttonv8\").style.display = \"flex\";\n              v.closest('.slidev8').querySelector(\".pause-buttonv8\").style.display = \"none\";\n            }\n          });\n\n          video.play();\n          playButton.style.display = \"none\";\n          pauseButton.style.display = \"flex\";\n          showPauseButton();\n        });\n\n        pauseButton.addEventListener(\"click\", () => {\n          video.pause();\n          playButton.style.display = \"flex\";\n          pauseButton.style.display = \"none\";\n        });\n\n        video.addEventListener(\"mousemove\", showPauseButton);\n        video.addEventListener(\"click\", showPauseButton);\n\n        video.addEventListener(\"play\", () => {\n          playButton.style.display = \"none\";\n          pauseButton.style.display = \"flex\";\n          showPauseButton();\n        });\n\n        video.addEventListener(\"pause\", () => {\n          playButton.style.display = \"flex\";\n          pauseButton.style.display = \"none\";\n        });\n      });\n    });\n  </script>\n</body>\n</html>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -198,41 +198,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "impact-text": {
-      "type": "impact-text",
-      "blocks": {
-        "1664424181b38582d5-0": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "1664424181b38582d5-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "featured-product": {
@@ -317,7 +282,7 @@
       ],
       "settings": {
         "full_width": false,
-        "product": "",
+        "product": "hoopside-pro-original",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -342,7 +307,6 @@
     "before-after-image",
     "custom_liquid_3rtrzt",
     "custom_liquid_gr8qzB",
-    "impact-text",
     "featured-product"
   ]
 }
