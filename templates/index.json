@@ -208,6 +208,12 @@
             "show_empty": false
           }
         },
+        "liquid_eaqtLL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Rating Widget</title>\n    <style>\n        body.unique-body-123 {\n            font-family: Arial, sans-serif;\n        }\n\n        .rating-widget-123 {\n            display: flex;\n            align-items: center;\n        }\n\n        .profile-images-123 {\n            display: flex;\n            align-items: center;\n            margin-right: 20px; /* Resimlerden uzaklaştırmak için artırıldı */\n        }\n\n        .profile-images-123 img {\n            width: 30px;\n            height: 30px;\n            border-radius: 50%;\n            margin-right: -10px;\n            border: 2px solid white;\n        }\n\n        .rating-123 {\n            display: flex;\n            align-items: center;\n        }\n\n        .rating-text-123 {\n            font-size: 14px; /* Font boyutu küçültüldü */\n        }\n\n        .highlight-123 {\n            color: #FF6347; /* Tomato color for highlights */\n            font-weight: bold;\n        }\n    </style>\n</head>\n<body class=\"unique-body-123\">\n\n    <div class=\"rating-widget-123\">\n        <div class=\"profile-images-123\">\n            <img src=\"https://randomuser.me/api/portraits/men/1.jpg\" alt=\"Profile 1\">\n            <img src=\"https://randomuser.me/api/portraits/women/1.jpg\" alt=\"Profile 2\">\n            <img src=\"https://randomuser.me/api/portraits/men/2.jpg\" alt=\"Profile 3\">\n        </div>\n        <div class=\"rating-123\">\n            <span class=\"rating-text-123\">Rated <span class=\"highlight-123\">4.5/5</span> based on <span class=\"highlight-123\">+50 Reviews</span></span>\n        </div>\n    </div>\n\n</body>\n</html>"
+          }
+        },
         "variant-picker": {
           "type": "variant_picker",
           "settings": {
@@ -230,7 +236,7 @@
             "payment_button_text_color": ""
           }
         },
-        "liquid_eaqtLL": {
+        "liquid_cXW4N3": {
           "type": "liquid",
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Payment Options</title>\n    <style>\n        body.unique-body-Pay123 {\n            font-family: Arial, sans-serif;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n            background-color: #f9f9f9;\n        }\n        .unique-payment-container-Xyz456 {\n            text-align: center;\n        }\n        .unique-payment-options-Abc789 {\n            display: flex;\n            justify-content: center;\n            gap: 10px;\n        }\n        .unique-payment-options-Abc789 img {\n            width: 50px;\n            height: auto;\n        }\n    </style>\n</head>\n<body class=\"unique-body-Pay123\">\n    <div class=\"unique-payment-container-Xyz456\">\n        <div class=\"unique-payment-options-Abc789\">\n            <img src=\"https://www.svgrepo.com/show/14823/amex.svg\" alt=\"AMEX\">\n            <img src=\"https://www.svgrepo.com/show/508402/apple-pay.svg\" alt=\"Apple Pay\">\n            <img src=\"https://www.svgrepo.com/show/508703/mastercard.svg\" alt=\"MasterCard\">\n            <img src=\"https://www.svgrepo.com/show/508716/paypal.svg\" alt=\"PayPal\">\n            <img src=\"https://www.svgrepo.com/show/508690/google-pay.svg\" alt=\"Google Pay\">\n            <img src=\"https://www.svgrepo.com/show/508730/visa-classic.svg\" alt=\"VISA\">\n        </div>\n    </div>\n</body>\n</html>"
@@ -241,9 +247,10 @@
         "title",
         "price",
         "rating",
+        "liquid_eaqtLL",
         "variant-picker",
         "buy-buttons",
-        "liquid_eaqtLL"
+        "liquid_cXW4N3"
       ],
       "settings": {
         "full_width": false,
