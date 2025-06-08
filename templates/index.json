@@ -202,6 +202,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_KjDrMU": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"width: 100%; background: #fff; padding: 12px 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-family: sans-serif; display: flex; align-items: center; gap: 12px; border-radius: 0;\">\n  <img src=\"https://images.loox.io/uploads/2025/5/20/js8NEkTRy_cf_tiny.jpg\" alt=\"Steffi H.\" style=\"width: 60px; height: 60px; border-radius: 12px; object-fit: cover;\">\n  <div style=\"flex: 1;\">\n    <div style=\"font-weight: bold;\">Steffi H. <span style=\"color: #FFD700;\">★★★★★</span></div>\n    <div style=\"font-size: 14px; color: #333;\">« C'est amusant de s'entraîner avec le Gymside Pro. Je le fais presque...</div>\n  </div>\n  <div style=\"font-size: 18px; color: #999;\">›</div>\n</div>"
+          }
+        },
         "separator_gx4Ghq": {
           "type": "separator",
           "settings": {}
@@ -244,6 +250,7 @@
       "block_order": [
         "title",
         "price",
+        "liquid_KjDrMU",
         "separator_gx4Ghq",
         "liquid_eaqtLL",
         "variant-picker",
