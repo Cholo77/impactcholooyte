@@ -109,6 +109,32 @@
         "logo_item_border": ""
       }
     },
+    "rich_text_F8dw7M": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3AzTcK": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir gymverse ?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_3AzTcK"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -311,6 +337,7 @@
   "order": [
     "slideshow",
     "logo_list_tpaq9t",
+    "rich_text_F8dw7M",
     "image-with-text-overlay",
     "before-after-image",
     "custom_liquid_3rtrzt",
