@@ -499,6 +499,59 @@
         "alternate_media_position": false,
         "spacing": "none"
       }
+    },
+    "faq_aAVXkM": {
+      "type": "faq",
+      "blocks": {
+        "item_Nzhjr9": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je perdre du poids avec le Hoopside ?",
+            "content": "<p><strong>Absolument</strong> ! En utilisant régulièrement notre <strong>Hoopside Pro , vous pouvez brûler</strong> jusqu'à plusieurs <strong>calories</strong> . Nous recommandons une séance d'entraînement <strong>de 30 minutes par</strong> jour .</p>"
+          }
+        },
+        "item_jXeUjF": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_UMwNEr": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Nzhjr9",
+        "item_jXeUjF",
+        "item_UMwNEr"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -516,6 +569,7 @@
     "media_with_text_8hU7U6",
     "media_with_text_LcqUBw",
     "media_with_text_rVGFVU",
-    "media_with_text_ACzKQF"
+    "media_with_text_ACzKQF",
+    "faq_aAVXkM"
   ]
 }
