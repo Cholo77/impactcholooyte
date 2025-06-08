@@ -202,10 +202,6 @@
             "show_taxes_notice": false
           }
         },
-        "separator_gx4Ghq": {
-          "type": "separator",
-          "settings": {}
-        },
         "moon_bundle_app_block_K9VBbb": {
           "type": "shopify://apps/moon-bundle/blocks/app-block/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
           "settings": {
@@ -256,7 +252,6 @@
       "block_order": [
         "title",
         "price",
-        "separator_gx4Ghq",
         "moon_bundle_app_block_K9VBbb",
         "liquid_eaqtLL",
         "variant-picker",
