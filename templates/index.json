@@ -355,6 +355,42 @@
         "alternate_media_position": false,
         "spacing": "none"
       }
+    },
+    "media_with_text_8hU7U6": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_4qq9T9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/p2ahir2y2cxtnfa87xtk.webp",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 52,
+            "subheading": "",
+            "title": "Peu gourmand en temps et très efficace",
+            "content": "<p><strong>Obtenez des résultats</strong>visibles en un clin d'œilet remodelez votre silhouette de plage avec le<strong>HoopsidePro</strong>. Avec seulement<strong>30minutes</strong>d'entraînement par jour, vous brûlerez une quantité incroyable<strong>de calories</strong>. Alors, qu'attendez-vous ?</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4qq9T9"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
     }
   },
   "order": [
@@ -368,6 +404,7 @@
     "custom_liquid_EWAjzL",
     "custom_liquid_MrMMTg",
     "custom_liquid_gr8qzB",
-    "media_with_text_6LCV7R"
+    "media_with_text_6LCV7R",
+    "media_with_text_8hU7U6"
   ]
 }
