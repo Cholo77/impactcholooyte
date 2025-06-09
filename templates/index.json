@@ -226,6 +226,12 @@
         "liquid_fTVTXp": {
           "type": "liquid",
           "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        .unique-top-badge-LmN123 {\n            display: inline-flex;\n            align-items: center;\n            background-color: #f3e5ff; /* Very light purple color */\n            padding: 5px 10px;\n            border-radius: 8px;\n            font-family: Arial, sans-serif;\n            font-size: 14px;\n            color: #333;\n        }\n\n        .unique-top-badge-LmN123 svg {\n            margin-right: 8px;\n            width: 20px; /* Set icon size */\n            height: 20px; /* Set icon size */\n        }\n\n        .unique-top-badge-LmN123 span {\n            font-weight: bold;\n        }\n    </style>\n    <title>Top Selling Product</title>\n</head>\n<body class=\"unique-body-RsT456\">\n    <div class=\"unique-top-badge-LmN123\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">\n            <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.89 5.82 22 7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n        </svg>\n        <span>Top selling product in Kitchen Gadgets category</span>\n    </div>\n</body>\n</html>"
+          }
+        },
+        "liquid_zyCa3N": {
+          "type": "liquid",
+          "settings": {
             "liquid": "<div class=\"sale-banner\">\n  <p><strong>Summer Sale now on!</strong></p>\n  <p>25% off subscriptions, 15% off everything else</p>\n</div>\n\n<style>\n.sale-banner {\n  border: 2px dashed black;\n  padding: 14px;\n  background-color: #FAFAFA;\n  width: fit-content;\n  font-family: Arial, sans-serif;\n  border-radius: 6px;\n}\n\n.sale-banner p {\n  margin: 0;\n  font-size: 14px;\n  color: black;\n}\n\n.sale-banner p strong {\n  font-size: 16px;\n  color: black;\n}\n</style>"
           }
         },
@@ -266,6 +272,7 @@
         "liquid_Pz9Kkf",
         "variant_picker_V6dnUb",
         "liquid_fTVTXp",
+        "liquid_zyCa3N",
         "buy-buttons",
         "liquid_cXW4N3",
         "liquid_KjDrMU",
