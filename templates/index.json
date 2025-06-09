@@ -223,6 +223,12 @@
             "size_chart_page": ""
           }
         },
+        "liquid_fTVTXp": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"sale-banner\">\n  <p><strong>Summer Sale now on!</strong></p>\n  <p>25% off subscriptions, 15% off everything else</p>\n</div>\n\n<style>\n.sale-banner {\n  border: 2px dashed black;\n  padding: 14px;\n  background-color: #FAFAFA;\n  width: fit-content;\n  font-family: Arial, sans-serif;\n  border-radius: 6px;\n}\n\n.sale-banner p {\n  margin: 0;\n  font-size: 14px;\n  color: black;\n}\n\n.sale-banner p strong {\n  font-size: 16px;\n  color: black;\n}\n</style>"
+          }
+        },
         "buy-buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -259,6 +265,7 @@
         "separator_pNXqba",
         "liquid_Pz9Kkf",
         "variant_picker_V6dnUb",
+        "liquid_fTVTXp",
         "buy-buttons",
         "liquid_cXW4N3",
         "liquid_KjDrMU",
