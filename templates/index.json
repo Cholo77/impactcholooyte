@@ -235,6 +235,12 @@
             "liquid": "<div class=\"sale-banner\">\n  <p><strong>🌞 OFFRE SPÉCIALE ÉTÉ</strong></p>\n  <p>Utilise le code <strong>SPRING25</strong> pour profiter de <strong>25 % de réduction</strong> dans ton panier !</p>\n</div>\n\n<style>\n.sale-banner {\n  border: 2px dashed black;\n  padding: 14px;\n  background-color: #FAFAFA;\n  width: fit-content;\n  font-family: Arial, sans-serif;\n  border-radius: 6px;\n}\n\n.sale-banner p {\n  margin: 0;\n  font-size: 14px;\n  color: black;\n}\n\n.sale-banner p strong {\n  font-size: 16px;\n  color: black;\n}\n</style>"
           }
         },
+        "liquid_M4UTG8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Discount Button</title>\n    <style>\n        .discount-wrapper-X34YZ {\n            text-align: center;\n            margin-top: 20px;\n        }\n\n        .discount-btn-9KlmP {\n            display: inline-flex;\n            align-items: center;\n            justify-content: center;\n            padding: 10px 20px;\n            font-size: 16px;\n            color: #2E7D32; /* Dark green */\n            background-color: #D3E8D1; /* Slightly darker green */\n            border: 1px solid #C8E6C9; /* 1px border */\n            border-radius: 10px; /* Border radius added */\n            cursor: pointer;\n            outline: none;\n            transition: background-color 0.3s ease;\n            width: 100%; /* Full width */\n            box-sizing: border-box; /* Include padding in width */\n            position: relative;\n            overflow: hidden; /* Ensure the shine effect stays within the button */\n        }\n\n        .btn-text-6u7Hd {\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            width: 100%;\n        }\n\n        .discount-btn-9KlmP:after {\n            content: '';\n            position: absolute;\n            top: 0;\n            left: -200%;\n            width: 200%;\n            height: 200%;\n            transform: skewX(-20deg);\n            background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);\n            animation: shine 1.6s ease infinite;\n        }\n\n        @keyframes shine {\n            100% {\n                left: 200%;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"discount-wrapper-X34YZ\">\n        <button id=\"discountBtn-A1b2C\" class=\"discount-btn-9KlmP\">\n            <span class=\"btn-text-6u7Hd\">\n                Click to apply a discount\n            </span>\n        </button>\n    </div>\n    <script>\n        document.getElementById('discountBtn-A1b2C').addEventListener('click', function() {\n            var button = this;\n            var buttonText = button.querySelector('.btn-text-6u7Hd');\n\n            // Show loading animation\n            buttonText.innerHTML = 'Applying...';\n\n            // Simulate a delay for loading animation (e.g., 2 seconds)\n            setTimeout(function() {\n                buttonText.innerHTML = 'A 10% discount will be applied at checkout!';\n            }, 2000); // 2 second delay\n        });\n    </script>\n</body>\n</html>"
+          }
+        },
         "buy-buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -273,6 +279,7 @@
         "variant_picker_V6dnUb",
         "liquid_fTVTXp",
         "liquid_zyCa3N",
+        "liquid_M4UTG8",
         "buy-buttons",
         "liquid_cXW4N3",
         "liquid_KjDrMU",
