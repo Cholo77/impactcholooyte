@@ -270,7 +270,14 @@
         "liquid_qB73YF": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"width: 100%; background: #fff; padding: 12px 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-family: sans-serif; display: flex; align-items: center; gap: 12px; border-radius: 0;\">\n  <img src=\"https://images.loox.io/uploads/2025/5/20/js8NEkTRy_cf_tiny.jpg\" alt=\"Steffi H.\" style=\"width: 60px; height: 60px; border-radius: 12px; object-fit: cover;\">\n  <div style=\"flex: 1;\">\n    <div style=\"font-weight: bold;\">Steffi H. <span style=\"color: #FFD700;\">★★★★★</span></div>\n    <div style=\"font-size: 14px; color: #333;\">« C'est amusant de s'entraîner avec le Gymside Pro. Je le fais presque...</div>\n  </div>\n  <div style=\"font-size: 18px; color: #999;\">›</div>\n</div>"
+            "liquid": "<div style=\"width: 100%; background: #fff; padding: 12px 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-family: sans-serif; display: flex; align-items: center; gap: 12px; border-radius: 0;\">\n  <img src=\"https://images.loox.io/uploads/2025/5/20/js8NEkTRy_cf_tiny.jpg\" alt=\"Steffi H.\" style=\"width: 60px; height: 60px; border-radius: 12px; object-fit: cover;\">\n  <div style=\"flex: 1;\">\n    <div style=\"font-weight: bold;\">Steffi H. <span style=\"color: #FFD700;\">★★★★★</span></div>\n    <div style=\"font-size: 14px; color: #333;\">« C'est tout simplement amusant... Il m'a fallu quelques jours pour y arriver, mais ensuite on devient vraiment accro à faire du hula hoop chaque jour sur de la belle musique</div>\n  </div>\n  <div style=\"font-size: 18px; color: #999;\">›</div>\n</div>"
+          }
+        },
+        "image_4cjGHa": {
+          "type": "image",
+          "settings": {
+            "alignment": "start",
+            "max_width": 150
           }
         }
       },
@@ -287,7 +294,8 @@
         "liquid_cXW4N3",
         "liquid_M4UTG8",
         "liquid_KjDrMU",
-        "liquid_qB73YF"
+        "liquid_qB73YF",
+        "image_4cjGHa"
       ],
       "settings": {
         "full_width": false,
