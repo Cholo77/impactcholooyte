@@ -449,6 +449,11 @@
       "shop_404": {
         "title": " "
       }
+    },
+    "checkout": {
+      "order_summary": {
+        "total_savings": " "
+      }
     }
   }
 }
