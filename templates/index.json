@@ -92,7 +92,6 @@
         "logo_Dc8pGJ",
         "logo_tVd34R"
       ],
-      "name": "Logo list",
       "settings": {
         "full_width": false,
         "stack_mobile": true,
@@ -125,7 +124,6 @@
       "block_order": [
         "heading_3AzTcK"
       ],
-      "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -176,7 +174,6 @@
     },
     "custom_liquid_3rtrzt": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": false,
         "remove_vertical_spacing": false,
@@ -215,7 +212,7 @@
         "liquid_Pz9Kkf": {
           "type": "liquid",
           "settings": {
-            "liquid": "<ul style=\"list-style: none; padding: 0; margin: 0; font-family: sans-serif; font-size: 16px; color: #000;\">\n  <li style=\"display: flex; align-items: center; margin-bottom: 6px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0909/9965/2737/files/checkmark-circle.svg?v=1749426443\" alt=\"check\" style=\"width: 24px; height: 24px; margin-right: 6px;\">\n    90 % plus silencieux que les autres cerceaux intelligents\n  </li>\n  <li style=\"display: flex; align-items: center; margin-bottom: 6px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0909/9965/2737/files/checkmark-circle.svg?v=1749426443\" alt=\"check\" style=\"width: 24px; height: 24px; margin-right: 6px;\">\n    Plus de 56 742 résultats positifs\n  </li>\n  <li style=\"display: flex; align-items: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0909/9965/2737/files/checkmark-circle.svg?v=1749426443\" alt=\"check\" style=\"width: 24px; height: 24px; margin-right: 6px;\">\n    Perdre du poids devient un jeu d'enfant\n  </li>\n</ul>"
+            "liquid": "<ul style=\"list-style: none; padding: 0; margin: 0; font-family: sans-serif; font-size: 16px; color: #000;\">\n  <li style=\"display: flex; align-items: center; margin-bottom: 6px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0909/9965/2737/files/checkmark-circle.svg?v=1749426443\" alt=\"check\" style=\"width: 24px; height: 24px; margin-right: 6px;\">\n    90 % plus silencieux que les autres cerceaux intelligents\n  </li>\n  <li style=\"display: flex; align-items: center; margin-bottom: 6px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0909/9965/2737/files/checkmark-circle.svg?v=1749426443\" alt=\"check\" style=\"width: 24px; height: 24px; margin-right: 6px;\">\n    Plus de 56.742+ résultats positifs\n  </li>\n  <li style=\"display: flex; align-items: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0909/9965/2737/files/checkmark-circle.svg?v=1749426443\" alt=\"check\" style=\"width: 24px; height: 24px; margin-right: 6px;\">\n    Perdre du poids devient un jeu d'enfant\n  </li>\n</ul>"
           }
         },
         "variant_picker_V6dnUb": {
@@ -313,7 +310,6 @@
     "custom_liquid_EWAjzL": {
       "type": "custom-liquid",
       "disabled": true,
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -353,7 +349,6 @@
       "block_order": [
         "image_qQ33Dx"
       ],
-      "name": "Media with text",
       "settings": {
         "full_width": false,
         "alternate_media_position": false,
@@ -389,7 +384,6 @@
       "block_order": [
         "image_4qq9T9"
       ],
-      "name": "Media with text",
       "settings": {
         "full_width": false,
         "alternate_media_position": false,
@@ -425,7 +419,6 @@
       "block_order": [
         "image_pidpK3"
       ],
-      "name": "Media with text",
       "settings": {
         "full_width": false,
         "alternate_media_position": false,
@@ -461,7 +454,6 @@
       "block_order": [
         "image_ifBPic"
       ],
-      "name": "Media with text",
       "settings": {
         "full_width": false,
         "alternate_media_position": false,
@@ -497,7 +489,6 @@
       "block_order": [
         "image_8w7Ec4"
       ],
-      "name": "Media with text",
       "settings": {
         "full_width": true,
         "alternate_media_position": false,
@@ -534,7 +525,6 @@
         "item_jXeUjF",
         "item_UMwNEr"
       ],
-      "name": "FAQ",
       "settings": {
         "full_width": true,
         "subheading": "",
@@ -559,7 +549,6 @@
     },
     "custom_liquid_gr8qzB": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": false,
         "remove_vertical_spacing": false,
