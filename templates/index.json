@@ -235,7 +235,7 @@
         "liquid_zyCa3N": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"sale-banner\">\n  <p><strong>🌞 OFFRE SPÉCIALE ÉTÉ</strong></p>\n  <p>Utilise le code <strong>ETE25</strong> pour profiter de <strong>25 % de réduction</strong> dans ton panier !</p>\n</div>\n\n<style>\n.sale-banner {\n  border: 2px dashed black;\n  padding: 14px;\n  background-color: #FAFAFA;\n  width: fit-content;\n  font-family: Arial, sans-serif;\n  border-radius: 6px;\n}\n\n.sale-banner p {\n  margin: 0;\n  font-size: 14px;\n  color: black;\n}\n\n.sale-banner p strong {\n  font-size: 16px;\n  color: black;\n}\n</style>"
+            "liquid": "<div class=\"sale-banner\">\n  <p><strong>🌞 OFFRE SPÉCIALE ÉTÉ</strong></p>\n  <p>Utilise le code <strong>ETE15</strong> pour profiter de <strong>15 % de réduction</strong> dans ton panier !</p>\n</div>\n\n<style>\n.sale-banner {\n  border: 2px dashed black;\n  padding: 14px;\n  background-color: #FAFAFA;\n  width: fit-content;\n  font-family: Arial, sans-serif;\n  border-radius: 6px;\n}\n\n.sale-banner p {\n  margin: 0;\n  font-size: 14px;\n  color: black;\n}\n\n.sale-banner p strong {\n  font-size: 16px;\n  color: black;\n}\n</style>"
           }
         },
         "buy-buttons": {
