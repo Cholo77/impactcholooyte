@@ -143,32 +143,6 @@
     },
     "slideshow": {
       "type": "slideshow",
-      "blocks": {
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/3_08777055-9f27-49fe-ab75-d23135805627.webp",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Brûle des calories, sans te déplacer",
-            "heading_tag": "h2",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide-1"
-      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -224,6 +198,7 @@
         "logo_Dc8pGJ",
         "logo_tVd34R"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_mobile": true,
