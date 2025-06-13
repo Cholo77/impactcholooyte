@@ -148,6 +148,41 @@
         "input_text_color": ""
       }
     },
+    "media_with_text_6LCV7R": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_qQ33Dx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GIFMaker_me_11_3b5a3584-a889-4f59-980f-830ef34fb09f.webp",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 52,
+            "subheading": "",
+            "title": "De 0 à 100 pour votre corps de rêve",
+            "content": "<p><strong>Découvrez une toute nouvelle façon</strong>, simple et <strong>silencieuse,</strong>de <strong>perdre du poids </strong>avec le <strong>Hoopside Pro</strong>! Affinez votre silhouette avec notre <strong>hula hoop anti-chute </strong>et savourez chaque instant !</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qQ33Dx"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "settings": {
@@ -271,41 +306,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "media_with_text_6LCV7R": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_qQ33Dx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/GIFMaker_me_11_3b5a3584-a889-4f59-980f-830ef34fb09f.webp",
-            "media_width": 60,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 52,
-            "subheading": "",
-            "title": "De 0 à 100 pour votre corps de rêve",
-            "content": "<p><strong>Découvrez une toute nouvelle façon</strong>, simple et <strong>silencieuse,</strong>de <strong>perdre du poids </strong>avec le <strong>Hoopside Pro</strong>! Affinez votre silhouette avec notre <strong>hula hoop anti-chute </strong>et savourez chaque instant !</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_qQ33Dx"
-      ],
-      "settings": {
-        "full_width": false,
-        "alternate_media_position": false,
-        "spacing": "none"
       }
     },
     "media_with_text_8hU7U6": {
@@ -531,12 +531,12 @@
   },
   "order": [
     "featured-product",
+    "media_with_text_6LCV7R",
     "slideshow",
     "logo_list_tpaq9t",
     "before-after-image",
     "custom_liquid_3rtrzt",
     "custom_liquid_EWAjzL",
-    "media_with_text_6LCV7R",
     "media_with_text_8hU7U6",
     "media_with_text_LcqUBw",
     "media_with_text_rVGFVU",
