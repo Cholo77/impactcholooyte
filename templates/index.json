@@ -9,145 +9,6 @@
  */
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/3_08777055-9f27-49fe-ab75-d23135805627.webp",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Brûle des calories, sans te déplacer",
-            "heading_tag": "h2",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "show_initial_transition": false,
-        "image_size": "lg",
-        "controls_type": "numbers",
-        "transition_type": "fade_with_text",
-        "autoplay": true,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
-      }
-    },
-    "logo_list_tpaq9t": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_FWkJCz": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/ELLE_Magazine_Logo_svg.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_crPdUA": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
-            "logo_width": 220,
-            "link": ""
-          }
-        },
-        "logo_Dc8pGJ": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/logo_topsante.webp",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_tVd34R": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Logo-doctissimo_svg.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_FWkJCz",
-        "logo_crPdUA",
-        "logo_Dc8pGJ",
-        "logo_tVd34R"
-      ],
-      "settings": {
-        "full_width": false,
-        "stack_mobile": true,
-        "title": "Vu sur :",
-        "content": "",
-        "text_alignment": "center",
-        "items_per_row": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
-    "rich_text_F8dw7M": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_3AzTcK": {
-          "type": "heading",
-          "settings": {
-            "text": "Pourquoi choisir Gymverse ?",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_3AzTcK"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Taille_affinee_N_ayez_plus_peur_de_la_pluie_ni_de_l_humidite_pour_vos_coiffures.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "featured-product": {
       "type": "featured-product",
       "blocks": {
@@ -280,8 +141,108 @@
         "input_text_color": ""
       }
     },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_08777055-9f27-49fe-ab75-d23135805627.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Brûle des calories, sans te déplacer",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "lg",
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "logo_list_tpaq9t": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_FWkJCz": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/ELLE_Magazine_Logo_svg.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_crPdUA": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
+            "logo_width": 220,
+            "link": ""
+          }
+        },
+        "logo_Dc8pGJ": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo_topsante.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_tVd34R": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Logo-doctissimo_svg.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_FWkJCz",
+        "logo_crPdUA",
+        "logo_Dc8pGJ",
+        "logo_tVd34R"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_mobile": true,
+        "title": "Vu sur :",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "before-after-image": {
       "type": "before-after-image",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "",
@@ -590,8 +551,6 @@
     "featured-product",
     "slideshow",
     "logo_list_tpaq9t",
-    "rich_text_F8dw7M",
-    "image-with-text-overlay",
     "before-after-image",
     "custom_liquid_3rtrzt",
     "custom_liquid_EWAjzL",
