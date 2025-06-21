@@ -52,13 +52,8 @@
         "disabled": false,
         "settings": {}
       },
-      "14952540001915115444": {
-        "type": "shopify://apps/upcart-cart-drawer/blocks/app-embed/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
-        "disabled": false,
-        "settings": {}
-      },
-      "7054877461618660028": {
-        "type": "shopify://apps/moon-bundle/blocks/app-embed/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
+      "13223602749629917723": {
+        "type": "shopify://apps/kaching-cart/blocks/embed/7705621e-3c0f-4e97-9d29-5c8528b19fb7",
         "disabled": false,
         "settings": {}
       }
